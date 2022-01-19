@@ -1,0 +1,15 @@
+<ActorFrame>
+	<children>
+		<AutoActor File="../_fade in normal" />
+		<ActorFrame Condition="OnePassed()">
+			<children>
+				
+			</children>
+		</ActorFrame>
+		<ActorFrame Condition="not OnePassed()">
+			<children>
+
+			</children>
+		</ActorFrame>
+	</children>
+</ActorFrame>

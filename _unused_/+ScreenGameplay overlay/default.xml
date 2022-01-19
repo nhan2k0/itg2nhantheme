@@ -1,0 +1,56 @@
+<ActorFrame> <children>
+	<LayerType="BitmapText"
+		Condition="GAMESTATE:GetPlayMode() == PLAY_MODE_RAVE"
+		Font="Common normal"
+		Text="@GAMESTATE:GetPlayerDisplayName(PLAYER_1)"
+		OnCommand="x,SCREEN_CENTER_X-224;y,SCREEN_TOP+53;shadowlength,0;diffuse,#000000;zoom,.5;maxwidth,180;addy,-100;sleep,0.5;decelerate,0.8;addy,+100"
+		OffCommand="accelerate,0.8;addy,-100"
+	/>
+	<Layer Type="BitmapText"
+		Condition="GAMESTATE:GetPlayMode() == PLAY_MODE_RAVE"
+		Font="Common normal"
+		Text="@GAMESTATE:GetPlayerDisplayName(PLAYER_2)"
+		OnCommand="x,SCREEN_CENTER_X+224;y,SCREEN_TOP+53;shadowlength,0;diffuse,#000000;zoom,.5;maxwidth,180;addy,-100;sleep,0.5;decelerate,0.8;addy,+100"
+		OffCommand="accelerate,0.8;addy,-100"
+	/>
+
+	<Layer Type="ActorFrame"
+		OnCommand="x,SCREEN_CENTER_X;y,SCREEN_TOP+24;addy,-100;sleep,0.5;queuecommand,TweenOn"
+		OffCommand="queuecommand,TweenOff"
+		ShowGameplayTopFrameMessageCommand="playcommand,TweenOn"
+		HideGameplayTopFrameMessageCommand="playcommand,TweenOff"
+		TweenOnCommand="decelerate,0.8;addy,+100"
+		TweenOffCommand="accelerate,0.8;addy,-100"
+		> <children>
+
+		<Layer
+			Type="SongMeterDisplay"
+			StreamWidth="0"
+			StreamPath="meter stream"
+		>
+			<Tip
+				File="tip"
+				OnCommand="diffuseshift;EffectColor1,0,0,0,0.0;EffectColor2,0,0,0,0.0"
+			/>
+		</Layer>
+
+
+
+	</children> </Layer>
+
+	<!-- Difficulty: -->
+	
+		</children></ActorFrame>
+		
+
+		</children></ActorFrame>
+		
+	</children> </Layer>
+
+
+	<!-- Draw on top of the rest -->
+
+
+	</children></Layer>
+</children> </ActorFrame>
+
