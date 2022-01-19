@@ -36,7 +36,7 @@
 	><children>
 		<Layer
 			Class="AutoActor"
-			File="2"
+			File="squid"
 			Command="horizalign,right;skewx,-0.05;diffusealpha,0;sleep,3;linear,0.5;diffusealpha,0.5;linear,3;linear,0.5;diffusealpha,0.0"
 		/>
 	</children></Layer>
@@ -180,7 +180,7 @@
 	<Layer
 		Class="Quad"
 		Command="vertalign,bottom;x,SCREEN_CENTER_X;y,SCREEN_BOTTOM;zoomtowidth,SCREEN_WIDTH;zoomtoheight,(SCREEN_HEIGHT-SCREEN_WIDTH/4*3*0.705)/2;diffuse,0,0,0,1"
-
+	/>
 	<Layer
 		Class="Quad"
 		Command="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;zoomtowidth,SCREEN_WIDTH;zoomtoheight,SCREEN_HEIGHT;diffusealpha,0;hibernate,29.5;linear,0.5;diffusealpha,1;linear,0.5;diffusealpha,0"
