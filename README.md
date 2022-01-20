@@ -1,10 +1,11 @@
 # myitg2personaltheme
 hji
+this is a tweak of itg2 theme
 wip and somehow unstable
 ## creditz
 
-stepmania background in main menu taken from glass (stepmania 3.95) theme
-<br>you can be happy made by [adult swim]
+stepmania background and some sound assets from glass (stepmania 3.95) theme
+<br>you can be happy bg made by [adult swim]
 <br>offsetplot made by taronuke
 <br>flip flop circulation made by silvagunner
 
