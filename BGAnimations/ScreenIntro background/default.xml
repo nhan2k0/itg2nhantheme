@@ -49,7 +49,7 @@
 	<Layer
 		Class="BitmapText"
 		Font="_lemon milk"
-		Text="135 songs"
+		Text="Mirin Template"
 		Command="x,SCREEN_LEFT+200;y,SCREEN_TOP+110;skewx,-0.2;ShadowLength,4;diffusealpha,0;sleep,11.5;linear,0.3;diffusealpha,1;sleep,3;linear,0.3;diffusealpha,0"
 	/>
 	<Layer
