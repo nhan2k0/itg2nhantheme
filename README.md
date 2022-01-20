@@ -1,6 +1,6 @@
 # myitg2personaltheme
 hji
-
+wip and somehow unstable
 ## creditz
 
 stepmania background in main menu taken from glass (stepmania 3.95) theme
