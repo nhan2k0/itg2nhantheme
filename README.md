@@ -17,5 +17,5 @@ additional background (unused):
 
 ## required
 
-notitg (any version will be work)
+notitg (v3.x -> up)
 <br>default, fallback theme must be have
