@@ -1,7 +1,7 @@
 # myitg2personaltheme
 hji
-this is a tweak of itg2 theme
-wip and somehow unstable
+<br>this is a tweak of itg2 theme
+<br>wip and somehow unstable
 ## creditz
 
 stepmania background and some sound assets from glass (stepmania 3.95) theme
