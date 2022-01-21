@@ -11,29 +11,20 @@
 		TweenOnCommand="decelerate,0.8;addy,+100"
 		TweenOffCommand="accelerate,0.8;addy,-100"
 		> <children>
-
+							
+				<Layer File="ScreenEvaluation_widget_offsetPlot.xml" OnCommand="addy,55"/>
+				<Layer File="ScreenEvaluation_widget_pb.xml"/>
+				<Layer File="ScreenEvaluation_widget_uksrtScore.xml"/>
 		<Layer
 			Type="BitmapText"
-			Font="_fira code retina 25px"
-			OnCommand="y,1;zoom,.5;shadowlength,0;diffuse,0.1,0.2,0,1"
+			Font="_lemon milk 16px"
+			OnCommand="y,1;zoom,.65;shadowlength,0;rainbow,"
 			InitCommand="animate,0;playcommand,Update"
 			CurrentSongChangedMessageCommand="playcommand,Update"
 			UpdateCommand="%SetFromSongTitleAndCourseTitle"
 		/>
 	</children> </Layer>
 
-
-	<Layer File="OffsetPlot" />
-		<ActorFrame
-			Condition="GAMESTATE:IsPlayerEnabled(PLAYER_1)"
-			OnCommand="x,SCREEN_CENTER_X-240;y,SCREEN_CENTER_Y-95;difficultyoffset;addx,-SCREEN_WIDTH/2;sleep,3;decelerate,0.3;addx,+SCREEN_WIDTH/2"
-			OffCommand="accelerate,0.3;addx,-SCREEN_WIDTH/2"
-		> <children>
-			<Actor
-				File="@THEME:GetPath(EC_GRAPHICS,'','_difficulty icons')"
-				OnCommand="animate,0;playcommand,Update"
-				UpdateCommand="%function(self,parent) SetDifficultyFrameFromGameState(self, PLAYER_1) end"
-			/>
 			<Actor
 				Class="DifficultyMeter"
 				Type="ScreenGameplay DifficultyMeterP1"

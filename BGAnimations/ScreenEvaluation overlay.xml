@@ -23,7 +23,9 @@
 	</children> </Layer>
 
 
-	<Layer File="OffsetPlot" />
+					<Layer File="ScreenEvaluation_widget_offsetPlot.xml" OnCommand="addy,55"/>
+				<Layer File="ScreenEvaluation_widget_pb.xml"/>
+				<Layer File="ScreenEvaluation_widget_uksrtScore.xml"/>
 		<ActorFrame
 			Condition="GAMESTATE:IsPlayerEnabled(PLAYER_1)"
 			OnCommand="x,SCREEN_CENTER_X-240;y,SCREEN_CENTER_Y-95;difficultyoffset;addx,-SCREEN_WIDTH/2;sleep,3;decelerate,0.3;addx,+SCREEN_WIDTH/2"
