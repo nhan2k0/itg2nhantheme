@@ -1,5 +1,5 @@
 <BGAnimation Sound="vine">
 	<children>
-		<AutoActor File="_fade in normal" />
+		<AutoActor File="_fade out" />
 	</children>
 </BGAnimation>

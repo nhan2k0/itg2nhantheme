@@ -47,12 +47,17 @@
 		</children></ActorFrame>
 	</children>
 </ActorFrame>
-	
+<!----
 	<Layer
-			File="happy"
+			File="bg"
 			OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;diffusealpha,1;zoomto,SCREEN_WIDTH,SCREEN_HEIGHT;"
 		/>
-		
+----->
+
+<Layer File="bgoverlay" OnCommand="VertAlign,bottom;ZoomToWidth,SCREEN_WIDTH*1.1;zoomy,1.1;rotationy,180;x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;" />
+						<Layer File="bgoverlay" OnCommand="VertAlign,bottom;ZoomToWidth,SCREEN_WIDTH*1.1;zoomy,-1.1;x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;" />
+
+						
 		<Layer
 			Type="AutoActor"
 			File="@THEME:GetPath(EC_BGANIMATIONS,'','_shared background no streaks')"

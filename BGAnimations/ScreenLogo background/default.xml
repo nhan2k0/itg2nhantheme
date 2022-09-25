@@ -1,8 +1,0 @@
-<ActorFrame>
-	<children>
-	<Layer
-			File="stepmania"
-			OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;diffusealpha,1;zoomto,SCREEN_WIDTH,SCREEN_HEIGHT;"
-		/>
-	</children>
-</ActorFrame>
