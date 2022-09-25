@@ -4,18 +4,13 @@ hji
 <br>wip and somehow unstable
 ## creditz
 
-stepmania background and some sound assets from glass (stepmania 3.95) theme
-<br>you can be happy bg made by [adult swim]
+some of the sound assets from Project Sekai: Colorful Stage ft. Hatsune Miku
 <br>offsetplot made by taronuke
 <br>flip flop circulation made by silvagunner
 
-
-additional background (unused):
-<br>https://www.pixiv.net/member_illust.php?mode=medium&illust_id=91197120
-<br>https://www.pixiv.net/member_illust.php?mode=medium&illust_id=88159841
 
 
 ## required
 
 notitg (v3.x -> up)
-<br>default, fallback theme must be have
+<br>Although this is the bit of tweak to make the ITG2 theme looks little bit better, default and fallback still required
